@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Licuadora con JavaScript</title>
+</head>
+<body>
+    <div class="container"> 
+        <h1 class="title">Prende y apaga la licuadora dando clic en su botón</h1>
+        <div id="blender" class="blender">
+            <div id="blender-button" class="blender-button" onclick="blenderController()"></div>
+        </div>
+    </div>
+    <audio id="blender-button-sound" src="sonidos/Sonido de boton.mp3" type="audio/mpeg"></audio>
+    <audio id="blender-sound" src="sonidos/Sonido de licuadora.mp3" type="audio/mpeg" loop></audio>
+    <script src="js/script.js"></script>
+</body>
+</html>
